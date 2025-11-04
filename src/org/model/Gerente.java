@@ -15,7 +15,17 @@ public class Gerente extends Funcionario {
     public double calcularSalarioTotal() {
         double bonificacao = salarioBase * (bonificacaoPercentual / 100);
         return salarioBase + bonificacao;
-
     }
 
+    public void exibirInformacoes() {
+        System.out.println("Nome: " + nome + " (Gerente)");
+        System.out.println("Departamento: " + departamento);
+        System.out.println("CPF: " + cpf);
+        System.out.println("Salário Total: R$ " + calcularSalarioTotal());
+        System.out.println("------------------------------");
+
+    }
 }
+
+
+

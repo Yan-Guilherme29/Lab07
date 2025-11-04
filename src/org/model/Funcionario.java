@@ -16,4 +16,14 @@ public class Funcionario {
         return salarioBase;
     }
 
+
+    public void exibirInformacoes() {
+        System.out.println("Nome: " + nome);
+        System.out.println("CPF: " + cpf);
+        System.out.println("Salário Total: R$ " + calcularSalarioTotal());
+        System.out.println("------------------------------");
+
+    }
 }
+
+
