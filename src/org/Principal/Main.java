@@ -9,7 +9,6 @@ import java.sql.SQLOutput;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("\n =-=-=-=-=-=-=-=-=-=-=-=-=-= Atividade 1 =-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
 
         Funcionario funcionario1 = new Funcionario("Yan", "70849598150", 3000.00);
         Gerente g1 = new Gerente("Carlos Lima", "987.654.321-00", 6000.0, "Vendas", 20.0);
@@ -20,7 +19,11 @@ public class Main {
         g1.exibirInformacoes();
         d1.exibirInformacoes();
 
+
+
+
     }
+
 
 
 
