@@ -2,9 +2,9 @@ package org.model;
 
 public class Funcionario {
 
-    private String nome;
-    private String cpf;
-    private double salarioBase;
+    protected String nome;
+    protected String cpf;
+    protected double salarioBase;
 
     public Funcionario(String nome, String cpf, double salarioBase) {
         this.nome = nome;
